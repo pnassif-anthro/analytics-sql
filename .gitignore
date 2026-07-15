@@ -1,0 +1,24 @@
+# Credentials / connection configs — never commit these
+*.env
+.env*
+config.py
+*credentials*
+*secrets*
+
+# Local scratch / exports
+*.csv
+*.xlsx
+!_templates/**/*.csv
+scratch/
+output/
+
+# OS / editor cruft
+.DS_Store
+.vscode/
+.idea/
+*.swp
+
+# Python (for generate_index.py or any helper scripts)
+__pycache__/
+*.pyc
+.venv/
